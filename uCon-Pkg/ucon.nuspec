@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>ucon</id>
+    <title>uCon</title>
+    <description>Embedded System Console</description>
+    <version>1.0.0.0</version>
+    <authors>ed.sutter@alcatel-lucent.com</authors>
+    <owners>JustinCoded</owners>  
+    <tags>chocolatey admin</tags>
+  </metadata>   
+</package>
