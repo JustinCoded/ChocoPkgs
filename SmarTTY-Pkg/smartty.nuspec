@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>smartty</id>
+    <title>SmarTTY</title>
+    <description>A multi-tabbed SSH client with SCP support</description>
+    <version>1.1.0.0</version>
+    <authors>SysProgs</authors>
+    <owners>JustinCoded</owners>  
+    <tags>chocolatey admin</tags>
+  </metadata>   
+</package>
