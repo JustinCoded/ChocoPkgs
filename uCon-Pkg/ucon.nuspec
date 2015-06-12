@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:nuspec="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>ucon</id>
     <title>uCon</title>
     <description>Embedded System Console</description>
     <version>1.0.0.0</version>
     <authors>ed.sutter@alcatel-lucent.com</authors>
-    <owners>JustinCoded</owners>  
-    <tags>chocolatey admin</tags>
+    <owners>JustinCoded</owners>
+    <projectUrl>http://www.umonfw.com/ucon/</projectUrl>
+    <tags>admin com serial serialport emulator telnet</tags>
   </metadata>   
 </package>
