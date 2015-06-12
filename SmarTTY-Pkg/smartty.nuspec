@@ -4,7 +4,7 @@
     <id>smartty</id>
     <title>SmarTTY</title>
     <description>A multi-tabbed SSH client with SCP support</description>
-    <version>1.1.0.0</version>
+    <version>2.2.0.0</version>
     <authors>SysProgs</authors>
     <owners>JustinCoded</owners>  
     <projectUrl>http://sysprogs.com</projectUrl>
