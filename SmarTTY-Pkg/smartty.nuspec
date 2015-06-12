@@ -7,6 +7,10 @@
     <version>1.1.0.0</version>
     <authors>SysProgs</authors>
     <owners>JustinCoded</owners>  
-    <tags>chocolatey admin</tags>
+    <projectUrl>http://sysprogs.com</projectUrl>
+	<licenseUrl>http://sysprogs.com/download</licenseUrl>
+	<copyright>© 2012 Sysprogs</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>admin ssh scp client</tags>	
   </metadata>   
 </package>

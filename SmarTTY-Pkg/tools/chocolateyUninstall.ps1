@@ -1,14 +1,15 @@
-﻿$packageName = 'smartty' 
+﻿$packageName = 'smartty'
+$programName = 'SmarTTY' 
+$installerType = 'msi'
 $scriptDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 
-$productCode = '{9EF7805A-E176-4A15-8EF8-CD2CC4F21492}'
+$installUrl = "http://sysprogs.com/files/SmarTTY/SmarTTY-1.1.msi"
 $silentArgs = "/quiet"
 
-try {  
-  & msiexec.exe "/x" "$productCode" "$silentArgs"
+$local_key = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*'
+$machine_key32 = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*'
+$machine_key64 = 'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*'
 
-} catch { 
+$uninstaller = Get-ItemProperty -Path @($local_key, $machine_key32, $machine_key64) | ?{ $_.DisplayName -match $programName }
+$productCode = $uninstaller.PSChildName
 
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)" 
-  throw 
-
-}
+Uninstall-ChocolateyPackage "$packageName" "$installerType" "$productCode $silentArgs"
