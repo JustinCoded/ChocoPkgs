@@ -27,6 +27,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="ssdt12-Pkg\" />
+    <Folder Include="ssdt12-Pkg\tools\" />
     <Folder Include="uCon-Pkg\" />
     <Folder Include="SmarTTY-Pkg\" />
     <Folder Include="SmarTTY-Pkg\tools\" />
@@ -37,6 +39,8 @@
     <Compile Include="SmarTTY-Pkg\smartty.nuspec" />
     <Compile Include="SmarTTY-Pkg\tools\chocolateyInstall.ps1" />
     <Compile Include="SmarTTY-Pkg\tools\chocolateyUninstall.ps1" />
+    <Compile Include="ssdt12-Pkg\ssdt12.nuspec" />
+    <Compile Include="ssdt12-Pkg\tools\chocolateyInstall.ps1" />
     <Compile Include="uCon-Pkg\tools\chocolateyInstall.ps1" />
     <Compile Include="uCon-Pkg\ucon.nuspec" />
   </ItemGroup>
