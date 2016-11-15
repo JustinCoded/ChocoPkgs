@@ -4,13 +4,13 @@
     <id>smartty</id>
     <title>SmarTTY</title>
     <description>A multi-tabbed SSH client with SCP support</description>
-    <version>2.2.0.0</version>
+    <version>2.2.0.1</version>
     <authors>SysProgs</authors>
-    <owners>JustinCoded</owners>  
+    <owners>JustinCoded</owners>
     <projectUrl>http://sysprogs.com</projectUrl>
 	<licenseUrl>http://sysprogs.com/download</licenseUrl>
 	<copyright>© 2012 Sysprogs</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>admin ssh scp client</tags>	
-  </metadata>   
+    <tags>admin ssh scp client</tags>
+  </metadata>
 </package>

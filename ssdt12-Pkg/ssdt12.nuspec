@@ -4,14 +4,17 @@
     <id>ssdt12</id>
     <title>SQL Server Data Tools (Visual Studio 2013)</title>
     <description>An unattended install of SQL Server Data Tools (Visual Studio 2013)</description>
-    <version>12.0.50512.0</version>
+    <version>12.0.50512.1</version>
     <authors>Microsoft</authors>
-    <owners>JustinCoded</owners>  
+    <owners>JustinCoded</owners>
     <projectUrl>https://msdn.microsoft.com/en-us/library/mt204009.aspx</projectUrl>
-	<licenseUrl>https://msdn.microsoft.com/en-us/data/hh322942</licenseUrl>
+	  <licenseUrl>https://msdn.microsoft.com/en-us/data/hh322942</licenseUrl>
     <iconUrl>https://github.com/mwrock/Chocolatey-Packages/raw/master/MsSqlServer2012Express/SqlServer.PNG</iconUrl>
-	<copyright>© 2013 Microsoft</copyright>
+	  <copyright>© 2013 Microsoft</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>admin SQL Server Data Tools SSDT Visual Studio 2013</tags>    
-  </metadata>   
+    <tags>admin SQL Server Data Tools SSDT Visual Studio 2013</tags>
+    <dependencies>
+      <dependency id="sqlserverexpress" />
+    </dependencies>
+  </metadata>
 </package>

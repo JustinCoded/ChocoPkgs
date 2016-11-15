@@ -4,10 +4,10 @@
     <id>ucon</id>
     <title>uCon</title>
     <description>Embedded System Console</description>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <authors>ed.sutter@alcatel-lucent.com</authors>
     <owners>JustinCoded</owners>
     <projectUrl>http://www.umonfw.com/ucon/</projectUrl>
     <tags>admin com serial serialport emulator telnet</tags>
-  </metadata>   
+  </metadata>
 </package>

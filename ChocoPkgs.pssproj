@@ -41,7 +41,9 @@
     <Compile Include="SmarTTY-Pkg\tools\chocolateyUninstall.ps1" />
     <Compile Include="ssdt12-Pkg\ssdt12.nuspec" />
     <Compile Include="ssdt12-Pkg\tools\chocolateyInstall.ps1" />
+    <Compile Include="ssdt12-Pkg\tools\chocolateyUninstall.ps1" />
     <Compile Include="uCon-Pkg\tools\chocolateyInstall.ps1" />
+    <Compile Include="uCon-Pkg\tools\chocolateyUninstall.ps1" />
     <Compile Include="uCon-Pkg\ucon.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

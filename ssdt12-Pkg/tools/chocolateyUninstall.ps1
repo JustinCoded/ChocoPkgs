@@ -1,8 +1,8 @@
-﻿$packageName = 'smartty'
-$programName = 'SmarTTY'
-$installerType = 'msi'
+﻿$packageName = 'ssdt12'
+$programName = 'SQL Server Data Tools (Visual Studio 2013)'
+$installerType = 'exe'
 $scriptDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installUrl = "http://sysprogs.com/files/SmarTTY/SmarTTY-1.1.msi"
+$installUrl = "http://go.microsoft.com/fwlink/?LinkID=393521&clcid=0x409"
 $silentArgs = "/quiet"
 
 $local_key = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*'

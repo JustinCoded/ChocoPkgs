@@ -1,8 +1,8 @@
-﻿$packageName = 'smartty'
-$programName = 'SmarTTY'
-$installerType = 'msi'
+﻿$packageName = 'ucon'
+$programName = 'uCon'
+$installerType = 'exe'
 $scriptDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installUrl = "http://sysprogs.com/files/SmarTTY/SmarTTY-1.1.msi"
+$installUrl = "http://www.umonfw.com/releases/ucon_install.exe"
 $silentArgs = "/quiet"
 
 $local_key = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*'
