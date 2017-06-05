@@ -9,6 +9,7 @@
     <owners>JustinCoded</owners>
     <projectUrl>http://sysprogs.com</projectUrl>
 	<licenseUrl>http://sysprogs.com/download</licenseUrl>
+  <projectSourceUrl>https://github.com/JustinCoded/ChocoPkgs</projectSourceUrl>
 	<copyright>© 2012 Sysprogs</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>admin ssh scp client</tags>

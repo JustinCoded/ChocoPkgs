@@ -8,6 +8,7 @@
     <authors>ed.sutter@alcatel-lucent.com</authors>
     <owners>JustinCoded</owners>
     <projectUrl>http://www.umonfw.com/ucon/</projectUrl>
+    <projectSourceUrl>https://github.com/JustinCoded/ChocoPkgs</projectSourceUrl>
     <tags>admin com serial serialport emulator telnet</tags>
   </metadata>
 </package>

@@ -10,6 +10,7 @@
     <projectUrl>https://msdn.microsoft.com/en-us/library/mt204009.aspx</projectUrl>
 	  <licenseUrl>https://msdn.microsoft.com/en-us/data/hh322942</licenseUrl>
     <iconUrl>https://github.com/mwrock/Chocolatey-Packages/raw/master/MsSqlServer2012Express/SqlServer.PNG</iconUrl>
+    <projectSourceUrl>https://github.com/JustinCoded/ChocoPkgs</projectSourceUrl>
 	  <copyright>© 2013 Microsoft</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>admin SQL Server Data Tools SSDT Visual Studio 2013</tags>
