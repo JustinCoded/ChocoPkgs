@@ -5,7 +5,7 @@
     <title>uCon</title>
     <description>Embedded System Console</description>
     <version>1.0.0.1</version>
-    <authors>ed.sutter@alcatel-lucent.com</authors>
+    <authors>ed.sutter</authors>
     <owners>JustinCoded</owners>
     <projectUrl>http://www.umonfw.com/ucon/</projectUrl>
     <projectSourceUrl>https://github.com/JustinCoded/ChocoPkgs</projectSourceUrl>
